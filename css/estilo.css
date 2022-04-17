@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #fff url(../imagens/bg.png);
+	margin: 15px;
+}
+
+h2 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p {
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+#container {
+	background: #ede9cc;
+	position: relative;
+	min-width: 740px;
+	max-width: 1180px;
+	margin: 0 auto;
+	background: url(../imagens/bg-container.png) top center repeat-y;
+}
+
+#topo {
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#area-logo {
+	width: 100%;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+	position: absolute;
+	z-index: 1;
+}
+
+#area-menu {
+	position: absolute;
+	background: url(../imagens/topo-imagem-lateral.png) no-repeat top left;
+	width: 450px;
+	height: 250px;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.logo a{
+	background: url(../imagens/logo.png) no-repeat;
+	position: absolute;
+	z-index: 3;	
+	width: 151px;	
+	height: 66px;
+	top: 15px;
+	left: 15px;
+	text-indent: -9000px;
+}
+
+#conteudo-menu {
+	margin-left: 90px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#menu-locais {
+	border-top: 1px solid #b5ab56;
+	border-bottom: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.8em;
+	color: #8b8448;
+	margin-bottom: 15px;
+}
+
+#menu-locais .locais {
+	float: left;
+	line-height: 2.1em;
+}	
+
+a.reserva {
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fffb50;
+	padding: 5px 10px;
+	float: right;
+} 
+
+ul {
+	list-style-type: none;
+}
+
+ul#navegação a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+ul#navegação a:hover {
+	background: #fdf6be;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+	margin-top: 10px;
+}
+
+ul#navegação {
+	float: left;
+}
+
+#area-lateral {
+	
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+}
+
+#area-principal {
+	
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+.conteudo {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+#rodape {
+	clear: both;
+	padding: 16px;
+	font-size: 1.1em;
+	color: #7d7640;
+
+}
+
+
+#beneficios li {
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#beneficios li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#beneficios li a p {
+	font-size: 0.8em;
+	color: #000;
+}
+
+#beneficios li a h3 {
+	font-size: 1.0em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {
+	background: #f6f3d6;
+}
